@@ -1136,7 +1136,8 @@ study’s conclusions.
                    theme(panel.background = element_blank())+
       labs(title="Relation between total steps taken and calories burned")
 
-![](https://github.com/Himi26/Fitness-Tracker-Data-Analysis-using-R/blob/main/figure-markdown_github/Relation%20between%20Total%20steps%20taken%20and%20calories%20burned-1.png)
+
+![](https://github.com/Himi26/Fitness-Tracker-Data-Analysis-using-R/blob/main/graphs/Relation%20between%20Total%20steps%20taken%20and%20calories%20burned-1.png)
 
 There is a clear positive correlation observed between Total Steps and
 Calories, underscoring the intuitive connection that as physical
@@ -1205,7 +1206,8 @@ rest of the week.
            x = "Weekdays", y = "Mean Minutes") +
       scale_fill_manual(values = c("VeryActiveMinutes" = "#2B6796", "FairlyActiveMinutes" = "yellow", "LightlyActiveMinutes" = "pink", "SedentaryMinutes"="#A9CCF6"))
 
-![]()https://github.com/Himi26/Fitness-Tracker-Data-Analysis-using-R/blob/main/graphs/Mean%20activity%20minutes%20based%20on%20weekdays-1.png
+![](ttps://github.com/Himi26/Fitness-Tracker-Data-Analysis-using-R/blob/main/graphs/Mean%20activity%20minutes%20based%20on%20weekdays-1.png)
+
 The analysis indicates that individuals tend to be more sedentary on
 Thursdays compared to the rest of the week. This could be attributed to
 various factors such as work schedules, fatigue, or specific activities
@@ -1343,6 +1345,7 @@ active minutes and minutes asleep
     ## `geom_smooth()` using formula = 'y ~ x'
 
 ![](https://github.com/Himi26/Fitness-Tracker-Data-Analysis-using-R/blob/main/graphs/Relation%20between%20Active%20minutes%20and%20Minutes%20asleep-1.png)
+
 Above observation from the data of the given user indicate that there is
 no apparent positive relation between active minutes, such as very
 active, sedentary, fairly active, and minutes asleep. The data suggests
