@@ -1,6 +1,6 @@
 ## Fitness Tracker Usage Analysis with R
 
-![](C:/Users/ihimi/Downloads/download.jpg)
+![](https://github.com/Himi26/Fitness-Tracker-Data-Analysis-using-R/blob/main/graphs/Average%20steps%20taken%20in%20weekdays-1.png)
 
 ### Introduction
 
@@ -1159,7 +1159,7 @@ Now, lets see the avaerage steps taken hourly
       scale_fill_gradient(low = "#A9CCF6", high = "#2B6796")+
       theme(axis.text.x = element_text(angle = 90))
 
-![](bellabeat_files/figure-markdown_strict/Average%20steps%20taken%20hourly-1.png)
+![](https://github.com/Himi26/Fitness-Tracker-Data-Analysis-using-R/blob/main/graphs/Average%20steps%20taken%20hourly-1.png)
 
 After examining the hourly distribution of Total Intensity, it became
 evident that individuals tend to be more active from 8 am to 2 pm.The
@@ -1183,7 +1183,7 @@ Now lets visualize which week day is the most active day
       scale_fill_gradient(low = "#A9CCF6", high = "#2B6796")+
       labs(title="Average steps taken in weekdays")
 
-![](bellabeat_files/figure-markdown_strict/Average%20steps%20taken%20in%20weekdays-1.png)
+![](https://github.com/Himi26/Fitness-Tracker-Data-Analysis-using-R/blob/main/graphs/Average%20steps%20taken%20in%20weekdays-1.png)
 
 The analysis indicates that the highest number of steps were recorded on
 Monday, Tuesday, and Saturday. This suggests that individuals are
@@ -1205,7 +1205,7 @@ rest of the week.
            x = "Weekdays", y = "Mean Minutes") +
       scale_fill_manual(values = c("VeryActiveMinutes" = "#2B6796", "FairlyActiveMinutes" = "yellow", "LightlyActiveMinutes" = "pink", "SedentaryMinutes"="#A9CCF6"))
 
-![](bellabeat_files/figure-markdown_strict/Mean%20activity%20minutes%20based%20on%20weekdays-1.png)
+![]()https://github.com/Himi26/Fitness-Tracker-Data-Analysis-using-R/blob/main/graphs/Mean%20activity%20minutes%20based%20on%20weekdays-1.png
 The analysis indicates that individuals tend to be more sedentary on
 Thursdays compared to the rest of the week. This could be attributed to
 various factors such as work schedules, fatigue, or specific activities
@@ -1342,7 +1342,7 @@ active minutes and minutes asleep
     ## `geom_smooth()` using formula = 'y ~ x'
     ## `geom_smooth()` using formula = 'y ~ x'
 
-![](bellabeat_files/figure-markdown_strict/Relation%20between%20Active%20minutes%20and%20Minutes%20asleep-1.png)
+![](https://github.com/Himi26/Fitness-Tracker-Data-Analysis-using-R/blob/main/graphs/Relation%20between%20Active%20minutes%20and%20Minutes%20asleep-1.png)
 Above observation from the data of the given user indicate that there is
 no apparent positive relation between active minutes, such as very
 active, sedentary, fairly active, and minutes asleep. The data suggests
@@ -1361,7 +1361,7 @@ Visualizing the relation between steps taken and minutes assleep
 
     ## `geom_smooth()` using method = 'loess' and formula = 'y ~ x'
 
-![](bellabeat_files/figure-markdown_strict/Relation%20between%20Steps%20taken%20and%20Minutes%20asleep-1.png)
+![](https://github.com/Himi26/Fitness-Tracker-Data-Analysis-using-R/blob/main/graphs/Relation%20between%20Steps%20taken%20and%20Minutes%20asleep-1.png)
 
       labs(title="Minutes Asleep vs. Sedentary Minutes")
 
@@ -1390,7 +1390,7 @@ Checking the relation between total time in bed and time taken to sleep
 
     ## `geom_smooth()` using method = 'loess' and formula = 'y ~ x'
 
-![](bellabeat_files/figure-markdown_strict/Relation%20between%20total%20time%20in%20bed%20and%20time%20taken%20to%20sleep-1.png)
+![](https://github.com/Himi26/Fitness-Tracker-Data-Analysis-using-R/blob/main/graphs/Relation%20between%20total%20time%20in%20bed%20and%20time%20taken%20to%20sleep-1.png)
 
       labs(title = "Relationship between total steps taken and time taken to sleep") +
       theme_minimal()
