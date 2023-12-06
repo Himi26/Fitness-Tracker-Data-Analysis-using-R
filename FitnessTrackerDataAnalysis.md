@@ -1206,7 +1206,7 @@ rest of the week.
            x = "Weekdays", y = "Mean Minutes") +
       scale_fill_manual(values = c("VeryActiveMinutes" = "#2B6796", "FairlyActiveMinutes" = "yellow", "LightlyActiveMinutes" = "pink", "SedentaryMinutes"="#A9CCF6"))
 
-![](ttps://github.com/Himi26/Fitness-Tracker-Data-Analysis-using-R/blob/main/graphs/Mean%20activity%20minutes%20based%20on%20weekdays-1.png)
+![](https://github.com/Himi26/Fitness-Tracker-Data-Analysis-using-R/blob/main/graphs/Mean%20activity%20minutes%20based%20on%20weekdays-1.png)
 
 The analysis indicates that individuals tend to be more sedentary on
 Thursdays compared to the rest of the week. This could be attributed to
@@ -1235,8 +1235,7 @@ Now lets analyse
     fig <- fig %>% layout(title = 'Average active minutes')
     fig
 
-<div class="plotly html-widget html-fill-item" id="htmlwidget-dd16ba022de1a044293c" style="width:672px;height:480px;"></div>
-<script type="application/json" data-for="htmlwidget-dd16ba022de1a044293c">{"x":{"visdat":{"40ec471b4ab5":["function () ","plotlyVisDat"]},"cur_data":"40ec471b4ab5","attrs":{"40ec471b4ab5":{"labels":{},"values":{},"marker":{"colors":["yellow","pink","#2B6796","#A9CCF6"]},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"pie"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"title":"Average active minutes","hovermode":"closest","showlegend":true},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"data":[{"labels":["FairlyActiveMinutes","LightlyActiveMinutes","SedentaryMinutes","VeryActiveMinutes"],"values":[13.564893617021276,192.8127659574468,991.21063829787238,21.164893617021278],"marker":{"color":"rgba(31,119,180,1)","colors":["yellow","pink","#2B6796","#A9CCF6"],"line":{"color":"rgba(255,255,255,1)"}},"type":"pie","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+![](https://github.com/Himi26/Fitness-Tracker-Data-Analysis-using-R/blob/main/graphs/Average%20active%20minutes.png)
 
 Out of the total active minutes, 81% are sedentary, 15% are lightly
 active, 1.7% are very active minutes, and 1.1% are fairly active
