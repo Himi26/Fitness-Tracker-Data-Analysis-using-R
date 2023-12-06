@@ -1,6 +1,6 @@
 ## Fitness Tracker Usage Analysis with R
 
-![](https://github.com/Himi26/Fitness-Tracker-Data-Analysis-using-R/blob/main/graphs/Average%20steps%20taken%20in%20weekdays-1.png)
+![](https://github.com/Himi26/Fitness-Tracker-Data-Analysis-using-R/blob/main/graphs/download.jpg)
 
 ### Introduction
 
