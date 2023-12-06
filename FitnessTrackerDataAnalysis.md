@@ -1136,7 +1136,7 @@ study’s conclusions.
                    theme(panel.background = element_blank())+
       labs(title="Relation between total steps taken and calories burned")
 
-![](bellabeat_files/figure-markdown_strict/Relation%20between%20Total%20steps%20taken%20and%20calories%20burned-1.png)
+![](https://github.com/Himi26/Fitness-Tracker-Data-Analysis-using-R/blob/main/figure-markdown_github/Relation%20between%20Total%20steps%20taken%20and%20calories%20burned-1.png)
 
 There is a clear positive correlation observed between Total Steps and
 Calories, underscoring the intuitive connection that as physical
